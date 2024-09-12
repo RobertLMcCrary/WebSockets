@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Application</title>
     <style>
-        #chat {
-            border: 1px solid #ccc;
-            padding: 10px;
-            height: 300px;
-            overflow-y: scroll;
-        }
-
         #message {
             width: 80%;
         }
 
         #send {
             width: 18%;
+        }
+
+        #chat {
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            width: 100%;
+            overflow-y: auto;
+            /* Ensure scrolling for new messages */
         }
     </style>
 </head>
